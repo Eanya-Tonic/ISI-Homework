@@ -1,4 +1,3 @@
-```python
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -96,4 +95,3 @@ for k in range(1, neighbors):
     accuracy = accuracy_score(y_test, y_pred)
     accuracies.append(accuracy)
     print("K-Neighbours are {} and Accuracy is {}".format(k,accuracy))
-```
